@@ -1,0 +1,130 @@
+:root {
+    --green: #00b30c;
+    --gray1: #353537;
+    --gray2: #eaeaeb;
+    --gray3: #777777;
+}
+h1, h2, h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+/* .header-scroll */
+.header-scroll{
+    opacity: 0;
+    z-index: 100;
+    margin-top: -300px;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ease;
+}
+.header-scroll.active{
+    opacity: 1;
+    margin-top: 0;
+}
+.header-scroll .lo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #000000af;
+}
+.header-scroll nav .nav-link{
+    color: gray!important;
+}
+
+/* header */
+#header{
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+.bus{
+    min-height: 25rem;
+}
+.title{
+    font-weight: 700;
+    color: white;
+}
+/* sec-1 */
+.ic{
+    overflow: hidden;
+    padding-bottom: 60px;
+    height: calc(auto+30px);
+}
+#features h3::before{
+    content: '';
+    display: block;
+    background-color: var(--green);
+    width: 20%;
+    height: 1px;
+    margin: 10px auto 30px auto;
+}
+#features .ic:hover h3::before{
+    content: '';
+    display: block;
+    background-color: var(--green);
+    width: 60%;
+    height: 1px;
+    margin: 10px auto 30px auto;
+    transition: all 0.3s ease;
+}
+#features .ic:hover P{
+    opacity: 1;
+    padding-top: 0;
+}
+.ic p{
+    opacity: 0;
+    transition: all 0.3s ease;
+    padding-top: 30px;
+}
+/* logo */
+#cards .logo{
+    background-image: url(../img/service_1.png);
+}
+#cards .wp{
+    background-image: url(../img/service_2.png);
+    
+}
+#cards .vo{
+    background-image: url(../img/service_3.png);
+    
+}
+#cards .wb{
+    background-image: url(../img/service_4.png);
+    
+}
+#cards .sm{
+    background-image: url(../img/service_5.png);
+    
+}
+#cards .des{
+    height: 20rem;
+    background-size: cover;
+}
+#cards .des p{
+    font-size:0.9rem;
+}
+#cards .des span{
+    display: block;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+#cards .row>div{
+    flex: 1 0 calc(50% - 1rem);
+}
+#slide {
+    background-color: rgb(211, 207, 207);
+}
+#slide .cont{
+    background-color: white;
+}
+#footer {
+    background-color: rgb(231, 230, 230);
+}
+@media (min-width:992px){
+    #cards .row>div{
+        flex: 1 0 calc(20% - 1rem);
+    }
+}

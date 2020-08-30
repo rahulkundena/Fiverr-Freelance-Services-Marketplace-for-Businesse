@@ -1,0 +1,55 @@
+<div class="row">
+                <div class="col-6 col-md-3 text-center category">
+                        <img src="img/icon_dg.png">
+                        <h3>Graphic &amp; Design</h3>
+                        <p>Logo Design, Business Cards, <br> Illustration &amp; lots more</p>
+                </div>
+                <div class="col-6 col-md-3 text-center category">
+                        <img src="img/icon_mkt.png">
+                        <h3>Digital Marketing</h3>
+                        <p>Social Media, SEO,<br>Content Marketing &amp; lots more</p>
+                </div>
+                <div class="col-6 col-md-3 text-center category">
+                        <img src="img/icon_et.png">
+                        <h3>Writing &amp; Translation</h3>
+                        <p>Resumes, Proofreading, <br>Translations &amp; lots more</p>
+                </div>
+                <div class="col-6 col-md-3 text-center category">
+                        <img src="img/icon_vd.png">
+                        <h3>Video &amp; Animation</h3>
+                        <p>Whiteboard, Animated Logos,<br>Brand Videos &amp; lots more</p>
+                </div>
+                <div class="col-6 col-md-3 text-center category">
+                        <img src="img/icon_av.png">
+                        <h3>Music &amp; Audio</h3>
+                        <p>Voice Over, Mixing, Producers,<br> Composers &amp; lots more</p>
+                </div>
+                <div class="col-6 col-md-3 text-center category">
+                        <img src="img/icon_dev.png">
+                        <h3>Programming &amp; Tech</h3>
+                        <p>Wordpress, Chatbots,<br>Programming &amp; lots more</p>
+                </div>
+                <div class="col-6 col-md-3 text-center category">
+                        <img src="img/icon_bis.png">
+                        <h3>Business</h3>
+                        <p>Virtual Assistant, Market Research,<br>Business Plans &amp; lots more</p>
+                </div>
+                <div class="col-6 col-md-3 text-center category">
+                        <img src="img/icon_ev.png">
+                        <h3>Fun &amp; Lifestyle</h3>
+                        <p>Online Lessons, Crafts,<br>Relationship Advice &amp; lots more</p>
+                </div>
+            </div>
+
+
+
+
+
+          <a href="#" class="nav-link">Graphic &amp; Design</a>
+          <a href="#" class="nav-link">Digital Marketing</a>
+          <a href="#" class="nav-link">Writing &amp; Translation</a>
+          <a href="#" class="nav-link">Video &amp; Animation</a>
+          <a href="#" class="nav-link">Music &amp; Audio</a>
+          <a href="#" class="nav-link">Programming &amp; Tech</a>
+          <a href="#" class="nav-link">Business</a>
+          <a href="#" class="nav-link">Fun &amp; Lifestyle</a>
